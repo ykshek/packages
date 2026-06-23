@@ -2,8 +2,8 @@
 %global debug_package %{nil}
 
 %global reponame    fw-fanctrl
-%global commit      80ecc5d273b46f715d924c49234b6867fe3daf33
-%global commit_date 20250302
+%global commit      b040da6686f694504b8dc22918be5cb655e75bf5
+%global commit_date 20260606
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 %global gitrel      .%{commit_date}.git%{shortcommit}
 
