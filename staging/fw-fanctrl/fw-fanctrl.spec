@@ -24,8 +24,6 @@ BuildRequires:  python3dist(wheel)
 Requires:       python3
 Requires:       fw-ectool
 
-Patch0:         138-no-build.patch
-
 Source1:        99-fw-fanctrl.rules
 
 %description
