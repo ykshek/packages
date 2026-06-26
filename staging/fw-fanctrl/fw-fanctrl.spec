@@ -17,6 +17,7 @@ URL:            https://github.com/TamtamHero/%{name}
 Source0:        https://github.com/TamtamHero/%{name}/archive/%{commit}.tar.gz
 
 BuildRequires:  systemd-rpm-macros
+BuildRequires:  pyproject-rpm-macros
 BuildRequires:  python3-devel
 BuildRequires:  python3-pip
 BuildRequires:  python3dist(setuptools)
